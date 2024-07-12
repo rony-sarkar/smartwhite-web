@@ -1,0 +1,308 @@
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .slider-info h1 {
+        font-size: 40px;
+    }
+
+    .slider-info p {
+        font-size: 16px;
+    }
+
+    .sio {
+        width: 220px;
+        padding: 50px 30px;
+        left: 0;
+    }
+
+    .sis {
+        width: 188px;
+        padding: 6px 14px;
+        bottom: 47px;
+    }
+
+    .management-info h1 {
+        font-size: 26px;
+    }
+
+    .management-info p {
+        font-size: 16px;
+    }
+
+    .sif {
+        padding: 30px 10px;
+    }
+
+    .sif h4 {
+        font-size: 13px;
+    }
+
+    .accreditions-info p {
+        font-size: 16px;
+    }
+
+    .sustainability-area .sl {
+        padding: 30px 0;
+    }
+
+    .accreditions-info img {
+        padding: 0 20px 0 0;
+    }
+}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 14px;
+    }
+
+    .header-area {
+        text-align: center;
+    }
+
+    .slider-info {
+        margin-top: 0;
+    }
+
+    .slider-info p,
+    .accreditions-info p {
+        font-size: 16px;
+    }
+
+    .slider-btn {
+        margin: 30px 0 30px;
+    }
+
+    .sio {
+        position: absolute;
+        left: 188px;
+    }
+
+    .sis {
+        padding: 25px 14px;
+    }
+
+    .slider-info h1,
+    .title h1,
+    .accreditions-area .title h1 {
+        font-size: 36px;
+    }
+
+    .solutions-area {
+        padding: 30px 0;
+    }
+
+    .sustainability-area .sl {
+        padding: 0;
+    }
+
+    .accreditions-info img {
+        padding: 0 20px 0 0;
+    }
+
+    .accreditions-info p {
+        font-size: 12px;
+    }
+}
+
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+
+    /* menu start */
+    .navbar-header > label,
+    .switch,
+    .menu-container label {
+        display: block;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #menu-switcher:checked + #navbar {
+        display: block;
+    }
+
+    .menu-container {
+        float: left;
+        width: 100%;
+    }
+
+    #navbar ul {
+        width: 100% !important;
+        margin: 0;
+        overflow: hidden;
+        padding: 10px 0;
+    }
+
+    #navbar ul li {
+        width: 100%;
+        float: left;
+        margin: 0 !important;
+        text-align: left;
+    }
+
+    #navbar ul li a {
+        color: #fff;
+        padding: 10px 35px;
+        display: block;
+    }
+
+    #navbar ul li a:hover {
+        color: #767676;
+    }
+
+    #navbar {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: absolute;
+        top: 100px;
+        z-index: 999;
+        left: 0;
+        background-color: #000;
+    }
+
+    /* menu end */
+    .banner-info {
+        height: auto;
+        background-size: cover;
+        background-image: url(../img/accessories.jpeg);
+        text-align: center;
+        padding: 50px 30px;
+        border-radius: 30px;
+    }
+
+    .slider-info {
+        margin-top: 0;
+    }
+
+    .slider-area {
+        margin: 0 0 30px 0;
+    }
+
+    .slider-info h1,
+    .sio h1,
+    .title h1,
+    .management-info h1,
+    .accreditions-area .title h1 {
+        font-size: 24px;
+    }
+
+
+    .slider-info p,
+    .management-info p,
+    .title p {
+        font-size: 14px;
+    }
+
+    .mn {
+        display: none;
+    }
+
+    .slider-btn {
+        margin: 20px 0 40px;
+    }
+
+    .sio {
+        padding: 12px 11px;
+        position: inherit;
+        left: inherit;
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    .sio p {
+        padding-bottom: 10px;
+    }
+
+    .sis {
+        padding: 12px 11px;
+        position: inherit;
+        float: inherit;
+        margin: 30px auto 0;
+        width: 200px;
+    }
+
+    .sis p {
+        font-size: 11px;
+    }
+
+    .sis h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .solutions-area {
+        padding: 30px 50px;
+    }
+
+    .accreditions-area {
+        padding: 0 0 20px;
+    }
+
+    .sustainability-area .sl {
+        padding: 0 0 30px;
+    }
+
+    .sustainability-area {
+        padding: 0 0 30px;
+    }
+
+    .accreditions-info {
+        display: inline;
+        text-align: center;
+        padding: 10px 15px;
+    }
+
+    .te {
+        text-align: center;
+    }
+
+    .accreditions-info .icon-img {
+        width: 30px;
+    }
+
+    .accreditions-info p {
+        font-size: 14px;
+    }
+
+    .sif {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+    .mt,
+    .solutions-area .title,
+    .sustainability-img {
+        text-align: center;
+    }
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 390px) and (max-width: 767px) {
+    /*
+    .banner-info {
+        height: 360px;
+        background-image: url(../img/accessories.jpeg);
+    }
+
+    .sio {
+        width: 178px;
+        padding: 40px 11px;
+    }
+
+    .sis {
+        width: 153px;
+        padding: 14px;
+        bottom: 0;
+    }
+*/
+}
